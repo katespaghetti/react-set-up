@@ -3,6 +3,7 @@ import React from "react";
 const styling = {
 	height: 100,
 	width: '100%',
+	padding: 0,
 	backgroundColor: 'black',
 	color: 'white',
 	padding: 10

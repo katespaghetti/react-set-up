@@ -50,11 +50,11 @@ module.exports = {
         query: {
           cacheDirectory: true
         }
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader?sourceMap', 'css-loader']
       }
-      // {
-      //   test: /\.css$/,
-      //   use: ['style-loader?sourceMap', 'css-loader', 'postcss-loader']
-      // }
     ]
   }
 };

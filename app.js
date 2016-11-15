@@ -5,6 +5,9 @@ import React from "react";
 import reactDom from "react-dom";
 import Header from "./header.js";
 
+// CSS
+import "./BaseStyles.css";
+
 console.log("baby's second react code");
 
 // take the components and render them into the page
