@@ -54,6 +54,10 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader?sourceMap', 'css-loader']
+      },
+      {
+        test: /\.scss$/,
+        use: ['style-loader?sourceMap', 'css-loader', 'sass-loader']
       }
     ]
   }

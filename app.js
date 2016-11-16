@@ -6,7 +6,10 @@ import reactDom from "react-dom";
 import Header from "./header.js";
 
 // CSS
-import "./BaseStyles.css";
+import "./baseStyles.css";
+
+// SCSS
+import "./baseStyles.scss";
 
 console.log("baby's second react code");
 
