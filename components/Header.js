@@ -11,7 +11,7 @@ const styling = {
 
 // creating a new class that inherits from React which is the "react" component
 // think of the class as a super object
-class header extends React.Component {
+class Header extends React.Component {
 	// there is one particular function that has to be defined for a react component
 	// every react component has a render
 	render() {
@@ -27,4 +27,4 @@ class header extends React.Component {
 }
 
 // when we say "class header", that creates a variable that we can export
-export default header;
+export default Header;
